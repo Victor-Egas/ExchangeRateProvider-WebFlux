@@ -1,4 +1,4 @@
-package com.provider.exchange.provider_exchange;
+package com.provider.exchange.provider.exchange;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

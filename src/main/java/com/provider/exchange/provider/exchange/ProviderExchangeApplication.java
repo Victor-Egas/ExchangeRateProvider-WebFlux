@@ -1,4 +1,4 @@
-package com.provider.exchange.provider_exchange;
+package com.provider.exchange.provider.exchange;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
