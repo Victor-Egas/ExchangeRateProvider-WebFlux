@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class ExchangeServiceImpl implements ExchangeService{
+public class    ExchangeServiceImpl implements ExchangeService{
 
     @Override
     public Flux<ExchangeResponse> getExchangeResponses() {
