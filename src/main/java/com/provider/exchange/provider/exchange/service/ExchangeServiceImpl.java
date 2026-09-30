@@ -17,6 +17,7 @@ public class    ExchangeServiceImpl implements ExchangeService{
         List<ExchangeResponse> exchangeResponses = new ArrayList<>();
         exchangeResponses.add(ExchangeResponse.builder().code(1).description("Soles").build());
         exchangeResponses.add(ExchangeResponse.builder().code(2).description("Dolares").build());
+        System.out.println("EJEMPLO 4");
         return Flux.fromIterable(exchangeResponses);
     }
 }
