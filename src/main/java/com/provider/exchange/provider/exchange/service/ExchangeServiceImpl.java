@@ -13,11 +13,13 @@ public class    ExchangeServiceImpl implements ExchangeService{
     @Override
     public Flux<ExchangeResponse> getExchangeResponses() {
 
-        System.out.println("EJEMPLO 4");
+
         List<ExchangeResponse> exchangeResponses = new ArrayList<>();
         exchangeResponses.add(ExchangeResponse.builder().code(1).description("Soles").build());
         exchangeResponses.add(ExchangeResponse.builder().code(2).description("Dolares").build());
-        System.out.println("EJEMPLO 4");
+        System.out.println("cambio3");
         return Flux.fromIterable(exchangeResponses);
+
+
     }
 }
